@@ -30,6 +30,8 @@ Now, in order to implement our GES, we have edited 3 files in RecBole; our imple
 - `quick_start/quick_start.py`  - we edited the `run_recbole()` method
 - `utils/utils.py` - we edited the `early_stop()` method
 
+You just need to copy the edited methods or the whole files into your RecBole installation, that is typically located in `ges_env/lib/python3.11/site-packages/recbole/`.
+
 ## Run the experiments
 
 Once you have updated the RecBole library, you can edit the `src/run.py` script, set your data and your models (or use ours, to replicate our experiments; our data is in the `data/movielens_1m` folder); finally, run the experiments with:
