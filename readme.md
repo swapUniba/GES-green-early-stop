@@ -7,7 +7,7 @@ With the growing focus on Green AI, there is an urgent need for algorithms that 
 
 ## Requirements
 
-Since our GES criterion has been implemented in the [RecBole](https://recbole.io) framework, we refer to the requirments and the original documentation of RecBole.
+Since our GES criterion has been implemented in the [RecBole](https://recbole.io) framework, we refer to the requirements and the original documentation of RecBole.
 
 Moreover, we track carbon footprint by means of [CodeCarbon](https://mlco2.github.io/codecarbon/).
 
@@ -22,6 +22,8 @@ source ges_env/bin/activate
 pip install recbole
 pip install codecarbon
 ```
+
+In addition, we share the requirements `req_ges.txt` file of the environment we used to perform our esperiments.
 
 ## GES implementation
 
